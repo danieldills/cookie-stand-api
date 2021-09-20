@@ -1,4 +1,6 @@
 asgiref==3.4.1; python_version >= "3.6"
+django-cors-headers==3.8.0; python_version >= "3.6"
+django-environ==0.7.0; python_version >= "3.4" and python_version < "4"
 django==3.2.7; python_version >= "3.6"
 djangorestframework-simplejwt==4.8.0; python_version >= "3.7"
 djangorestframework==3.12.4; python_version >= "3.5"
