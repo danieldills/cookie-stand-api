@@ -9,4 +9,4 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
         if obj.author is None:
             return True
 
-        return obj.author == request.user
+        return obj.owner == request.user
