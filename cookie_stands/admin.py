@@ -5,9 +5,3 @@ from .models import CookieStand
 @admin.register(CookieStand)
 class AdminForConcert(admin.ModelAdmin):
     list_display = ("location", "owner", "created_at")
-    # prepopulated_fields = {
-    #     "slug": ("title",),
-    # }
-
-
-# admin.site.register(AnotherModel)
