@@ -6,4 +6,4 @@ release:
   command:
     - python manage.py collectstatic --noinput
 run:
-  web: gunicorn project.wsgi
+  web: gunicorn cookie_stand_api.wsgi
